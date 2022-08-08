@@ -57,9 +57,12 @@ const product = {
   quantity: 15,
 };
 console.log(`Total: ${7 * product.price}`);
-const total = 7 * product.price;
+const total = product.quantity * product.price;
 if (total > 100) {
   console.log("True");
 } else {
   console.log("False");
 }
+
+// product.quantity=product.quantity-7; that's what the line below does, eslint edited it
+product.quantity -= 7;
