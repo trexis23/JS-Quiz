@@ -64,5 +64,6 @@ if (total > 100) {
   console.log("False");
 }
 
+// I got up to step 7, this part I added it after you explained in class.
 // product.quantity=product.quantity-7; that's what the line below does, eslint edited it
 product.quantity -= 7;
